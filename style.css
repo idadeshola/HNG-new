@@ -9,7 +9,18 @@ body{
   background: #fff;
 
 }
-
+nav{
+  display: flex;
+  
+  background-color: #e7e8e9;
+  padding: 20px;
+}
+ nav a{
+   margin-right: 50px;
+ }
+.others{
+  margin: auto;
+}
 
 div.cv-container{
  margin: 50px auto;
@@ -340,7 +351,7 @@ div.small-circle5{
       margin-bottom:20px;
     }
     
-    div.body1 h3,  {
+    div.body1 h3  {
       color:#0070c0;
       text-align:center;
       font-size:14px;
@@ -414,7 +425,7 @@ div.small-circle5{
       list-style-type: square;
       list-style-position: outside;
       font-size: 13x;
-      margin-left:
+      
      
   }
   
@@ -499,7 +510,7 @@ div.small-circle5{
           
         }
         
-        div.body1 h3,  {
+        div.body1 h3  {
           color:#0070c0;
           text-align:center;
           font-size:14px;
@@ -573,9 +584,8 @@ div.small-circle5{
           list-style-type: square;
           list-style-position: outside;
           font-size: 13x;
-          margin-left:
-         
-      }
+          
+        
         }
        
       @media screen  and (min-width:400px) and
@@ -604,7 +614,7 @@ div.small-circle5{
       }
           div.title{
           
-          margin-right:1px;10px;
+          margin-right:10px;
           
           width: 50%;
             position:relative;
@@ -655,7 +665,7 @@ div.small-circle5{
           div.duration{
           font-style: italic;
           color:rgb(71, 68, 68);
-          font-size: 13px
+          font-size: 13px;
             width:20%;
             margin-left:0px;
           
