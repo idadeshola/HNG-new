@@ -9,7 +9,21 @@ body{
   background: #fff;
 
 }
-
+nav{
+  background-color: aliceblue;
+  padding: 30px;
+}
+.other{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  
+  
+}
+.other a{
+  margin-right: 40px;
+}
 div.cv-container{
  margin: 50px auto;
   align-content: center;
